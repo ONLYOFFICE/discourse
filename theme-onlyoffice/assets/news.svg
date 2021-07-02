@@ -1,0 +1,22 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M46.5 63.5H59.5C62.3 63.5 64.5 61.3 64.5 58.5V26.5C64.5 24.8 63.2 23.5 61.5 23.5H46.5V63.5Z" fill="white" stroke="#333333" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M58.5 54.5V26.5C58.5 24.8 59.8 23.5 61.5 23.5C63.2 23.5 64.5 24.8 64.5 26.5V54.5" fill="white"/>
+<path d="M58.5 54.5V26.5C58.5 24.8 59.8 23.5 61.5 23.5C63.2 23.5 64.5 24.8 64.5 26.5V54.5" stroke="#333333" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M58.5 54.5H45.5" stroke="#333333" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13.8 63.5C10.9 63.5 8.5 61.1 8.5 58.2V8.5H54.5V59.2C54.5 61.6 56.4 63.5 58.8 63.5H13.8Z" fill="white" stroke="#333333" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M48.5 13.5H13.5V22.5H48.5V13.5Z" fill="url(#paint0_linear)" stroke="#333333" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29.5 27.5H14.5V42.5H29.5V27.5Z" fill="#BDECFF" stroke="#333333" stroke-miterlimit="10"/>
+<path d="M33.5 27.5H48.5" stroke="#333333" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M33.5 32.5H48.5" stroke="#333333" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M33.5 37.5H48.5" stroke="#333333" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M33.5 42.5H48.5" stroke="#333333" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 47.5H48.5" stroke="#333333" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 52.5H48.5" stroke="#333333" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 57.5H48.5" stroke="#333333" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<linearGradient id="paint0_linear" x1="13.5" y1="18" x2="48.5" y2="18" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF8E3D"/>
+<stop offset="1" stop-color="#FF6F3D"/>
+</linearGradient>
+</defs>
+</svg>

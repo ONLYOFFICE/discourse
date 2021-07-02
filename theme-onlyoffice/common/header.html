@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<script type="text/discourse-plugin" version="0.8">
+  api.replaceIcon('search', 'onlyoffice-search-icon');
+  api.replaceIcon('bars', 'onlyoffice-hamburger-icon');
+  api.replaceIcon('caret-right', 'onlyoffice-arrow-right-icon');
+  api.replaceIcon('caret-down', 'onlyoffice-arrow-down-icon');
+  api.replaceIcon('lock', 'onlyoffice-lock-icon');
+  api.replaceIcon('far-comment', 'onlyoffice-comment-topic-icon');
+  api.replaceIcon('bold', 'onlyoffice-bold-topic-icon');
+  api.replaceIcon('italic', 'onlyoffice-italic-topic-icon');
+  api.replaceIcon('link', 'onlyoffice-link-topic-icon');
+  api.replaceIcon('quote-right', 'oo-blockquote-topic-icon');
+  api.replaceIcon('code', 'oo-code-topic-icon');
+  api.replaceIcon('far-image', 'oo-img-topic-icon');
+  api.replaceIcon('list-ul', 'oo-list-bullets-topic-icon');
+  api.replaceIcon('list-ol', 'oo-list-numbering-topic-icon');
+  api.replaceIcon('far-smile', 'oo-smile-topic-icon');
+  api.replaceIcon('calendar-alt', 'oo-date-topic-icon');
+  api.replaceIcon('cog', 'oo-settings-topic-icon');
+  api.replaceIcon('far-eye-slash', 'oo-unlisted-topic-icon');
+  api.replaceIcon('chart-bar', 'oo-details-topic-icon');
+  api.replaceIcon('pencil-alt', 'oo-edit-tr-topic-icon');
+  api.replaceIcon('wrench', 'oo-key-tr-icon');
+  api.replaceIcon('reply', 'oo-reply-grey-icon');
+  api.replaceIcon('d-unliked', 'oo-like-icon');
+  api.replaceIcon('ellipsis-h', 'oo-dots-topic-icon');
+  api.replaceIcon('flag', 'oo-flag-icon');
+  api.replaceIcon('bookmark', 'oo-note-topic-icon');
+  api.replaceIcon('far-trash-alt', 'oo-remove-topic-icon');
+  api.replaceIcon('d-tracking', 'oo-tracking-topic-icon');
+  api.replaceIcon('d-regular', 'oo-ring-topic-icon');
+  api.replaceIcon('d-watching', 'oo-watching-topic-icon');
+  api.replaceIcon('d-muted', 'oo-muted-topic-icon');
+  api.replaceIcon('thumbtack', 'oo-tr-pin');
+  api.replaceIcon('tasks', 'oo-select-topic');
+  api.replaceIcon('unlock', 'oo-unlock-topic');
+  api.replaceIcon('far-clock', 'oo-timer-topic');
+  api.replaceIcon('anchor', 'oo-reset-topic');
+  api.replaceIcon('folder', 'oo-archive-topic');
+  api.replaceIcon('envelope', 'oo-personal-message');
+  api.replaceIcon('hourglass-start', 'oo-slow-mode');
+  api.replaceIcon('thumbtack unpinned', 'oo-tr-pin');
+  api.replaceIcon('bell', 'oo-ring-topic-icon');
+  api.replaceIcon('user', 'oo-person-icon');
+  
+  
+  
+  
+</script>
+<script type="text/discourse-plugin" version="0.8">
+$(document).ready( function() {
+    $("#filename-input").change(function(){
+        var filename = $(this).val().replace(/.*\\/, "");
+        $(".file-input").html(filename);
+    });
+});
+</script>
