@@ -23,7 +23,7 @@ export default createWidget("do-not-disturb", {
     } else {
       return [
         h("button.btn-flat.do-not-disturb-inner-container", [
-          iconNode("toggle-off"),
+          iconNode("oo-block16"),
           h("span.do-not-disturb-label", I18n.t("do_not_disturb.label")),
         ]),
       ];

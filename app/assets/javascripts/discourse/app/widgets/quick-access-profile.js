@@ -17,7 +17,7 @@ createWidgetFrom(QuickAccessItem, "logout-item", {
     return this.attach("flat-button", {
       action: "logout",
       content: I18n.t("user.log_out"),
-      icon: "sign-out-alt",
+      icon: "oo-logout16",
       label: "user.log_out",
     });
   },
@@ -58,13 +58,13 @@ createWidgetFrom(QuickAccessPanel, "quick-access-profile", {
   _getDefaultItems() {
     let defaultItems = [
       {
-        icon: "user",
+        icon: "oo-person16-icon",
         href: `${this.attrs.path}/summary`,
         content: I18n.t("user.summary.title"),
         className: "summary",
       },
       {
-        icon: "stream",
+        icon: "oo-activity16-icon",
         href: `${this.attrs.path}/activity`,
         content: I18n.t("user.activity_stream"),
         className: "activity",
@@ -73,7 +73,7 @@ createWidgetFrom(QuickAccessPanel, "quick-access-profile", {
 
     if (this.currentUser.can_invite_to_forum) {
       defaultItems.push({
-        icon: "user-plus",
+        icon: "oo-invite16-icon",
         href: `${this.attrs.path}/invited`,
         content: I18n.t("user.invited.title"),
         className: "invites",
@@ -82,13 +82,13 @@ createWidgetFrom(QuickAccessPanel, "quick-access-profile", {
 
     defaultItems.push(
       {
-        icon: "pencil-alt",
+        icon: "oo-wiki16-icon",
         href: `${this.attrs.path}/activity/drafts`,
         content: I18n.t("user_action_groups.15"),
         className: "drafts",
       },
       {
-        icon: "cog",
+        icon: "oo-settings16",
         href: `${this.attrs.path}/preferences`,
         content: I18n.t("user.preferences"),
         className: "preferences",
